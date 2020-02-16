@@ -1,15 +1,15 @@
 variable "key_name" {
-  default = "keypairforOregon"
+  default = "josis"
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/sshkey.pem"
+  default = "/root/.ssh/josis.pem"
 }
 
 variable "us-east-zones" {
-  default = ["us-west-2a", "us-west-2b"]
+  default = ["us-east-1a", "us-east-1b"]
 }
 
 variable "sg-id" {
-  default = "sg-00c58faccda5e161b"
+  default = "sg-0444e4a365967ec23"
 }
