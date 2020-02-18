@@ -11,5 +11,5 @@ variable "us-east-zones" {
 }
 
 variable "sg-id" {
-  default = "sg-075a8a1f67c8b9e0d"
+  default = "sg-0172a1313f34a8ba8"
 }
